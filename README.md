@@ -27,3 +27,5 @@ python scorer.py pos-test-with-tags.txt pos-test-key.txt > pos-tagging-report.tx
 Where we use the previous text result and we compare with another text file but with the correct tag associated. With the execution of the program will get a new text file containing the total number of correct tag associated compared with the number of word, as well as, the percentage of accuracy and a table corresponding the number of correct and incorrect tag association for each tag in the text file
 
 P.S By rules we mean all the solutions to make the program more accurate, thus can be based on the regex or the dependencies between tags
+
+"***Example of the ouput files can be found in <a href = "https://github.com/romerotac/PA3/tree/master/file_report"> file_report <a> and under tag_with_rules you can find also the otuput example for the first part***"
