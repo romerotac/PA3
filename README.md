@@ -1,4 +1,9 @@
 # PA3/Pos Tagging program
+<p align = "center">
+  <span>English</span>
+  <a href = "https://github.com/romerotac/PA3/tree/master/languages/Italian"> Italian </a>
+</*>
+
 Report Project:
 
 The first part of the project makes use of the tagger.py program and 2 text files.
