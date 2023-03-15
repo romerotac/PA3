@@ -1,6 +1,6 @@
 # PA3/Pos Tagging program
 <p align = "center">
-  <span>English</span>
+  <span>English</span> |
   <a href = "https://github.com/romerotac/PA3/tree/master/languages/Italian"> Italian </a>
 </*>
 
