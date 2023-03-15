@@ -1,9 +1,9 @@
-#PA
+# PA3/Pos Tagging Program
 Report Project:
 <p align = "center">
   <a href = "https://github.com/romerotac/PA3"> English </a>|
   <span>Italian</span>
-</p>
+</*>
 
 The first part of the project makes use of the tagger.py program and 2 text files.
 The program should be run like this:
