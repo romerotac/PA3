@@ -5,25 +5,26 @@ Report Project:
   <span>Italian</span>
 </*>
 
-The first part of the project makes use of the tagger.py program and 2 text files.
-The program should be run like this:
+La prima parte del progetto fa uso del programma tagger.py e di due file di testo.
+Il programma deve essere eseguito in questo modo:
 
 python tagger.py pos-train.txt pos-test.txt > pos-test-with-tags.txt
 
-Where pos-train.txt is the text file on which we train the model to recognize specific word|tag associations, and pos-test.txt is the text document containing the words without any tags. When running the program it will output a text file  called pos-test-with-tags.txt to which results in a pos-test file but this time with the supposedly appropriate tag being associated.
+Dove pos-train.txt consiste nel file di testo che viene utilizzato per allenare il modello a riconoscere specifici associazioni fra word|tag (o parola|classe), e post-test.txt e il documento di testo contenente parola senza nessuna associazione. Con l'esecuzione del programma si otterrà un nuovo file di testo chiamato pos-test-with-tags.txt la quale consiste nel file pos-test ma questa volta con un'appropriata classificazione.
 
-Note --Rules--:
-During this part of the program is being selected to use the first rule. There are a total of 5 rules which can be modified hard-coding inside the function rules. Each rule can increase or decrease the precision of the model.
+Nota –Regole–:
+Durante l 'esecuzione del programma tagger.py, viene selezionata la prima regola. Ci sono in totale 5, e queste possono essere modificate all’interno del codice sotto la funzione rules. Ogni regola può incrementare o decrementare la precisione del modello.
 
-Note --create_before_after:
-This function is used to create a table with the total of number of times where one tag is followed up by another, this can be useful when creating rules 
+Nota –create_before_after:
+Questa funzione viene utilizzata per creare un file di testo contenente una tabella con il numero totale di volte un tag e seguita da un’altra. Questo può essere utile nella creazione di regole.
 
-The second and last part of the project consists of evaluating the efficiency of the model created.
-The program should run like this:
+La seconda e ultima parte del progetto, consiste nel valutare l’efficienza del modello creato.
+Il programma deve essere eseguito in questo modo:
 
 python scorer.py pos-test-with-tags.txt pos-test-key.txt > pos-tagging-report.txt
 
-Where we use the previous text result and we compare with another text file but with the correct tag associated. When running the program will compare each word with the tag associated, and will give as a result a message with the total of correct tag associated compared with the number of word, as well as, the percentage of accuracy and a table corresponding the number of correct and incorrect tag association for each tag in the text file
+Dove si utilizza il file di testo creato in precedenza e lo si compara con un secondo file test identico al primo, ma con la corretta associazione. Una volta eseguito il programma otterremo un file di testo contenente il numero totale di associazioni corrette comparato con il numero totale di parole nel testo, così come la percentuale di accuratezza e una tabella corrispondente al numero di associazione correte e non corrette per ogni tag.
 
-P.S By rules we mean all the solutions to make the program more accurate, thus can be based on the regex or the dependencies between tags
+P.S Per regole si intende tutte le soluzioni che possono incrementare l’accuratezza del programma. Queste possono essere basati sul regex o la dipendenza fra diversi tag
+
 
