@@ -27,4 +27,4 @@ Dove si utilizza il file di testo creato in precedenza e lo si compara con un se
 
 P.S Per regole si intende tutte le soluzioni che possono incrementare l’accuratezza del programma. Queste possono essere basati sul regex o la dipendenza fra diversi tag
 
-
+"***Esempi di file di testo inerenti alla seconda parte si trovano in <a href = "https://github.com/romerotac/PA3/tree/master/file_report"> file_report <a> e nella cartella tag_with_rules puoi trovare file di testo inerenti alla prima parte del programma ***"
