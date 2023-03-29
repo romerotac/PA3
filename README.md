@@ -17,7 +17,7 @@ Note --Rules--:
 During this part of the program is being selected to use the first rule. There are a total of 5 rules which can be modified hard-coding inside the function rules. Each rule can increase or decrease the precision of the model.
 
 Note --create_before_after:
-This function is used to create a text file containing a table with the total of number of times where one tag is followed up by another, this can be useful when creating rules 
+This function is used to create a text file containing a table with the total of number of times (frequency distribution) where one tag is followed up by another, this can be useful when creating rules 
 
 The second and last part of the project consists of evaluating the efficiency of the model created.
 The program should run like this:
